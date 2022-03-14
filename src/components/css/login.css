@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 32, 32);
+    height:100vh;
+    width:100%;
+}
+.body img{
+    width:100%;
+    height:auto;
+
+}
+.container{
+    width:30%;
+    height:fit-content;
+    position:absolute;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:300px;
+    background-color: rgb(217, 189, 197,.6);
+    position:relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 8px 11px rgb(56, 56, 56,.5);
+}
+.box img{
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}
+.cont{
+    display:flex;
+}
+.pass{
+    margin-top:16px;
+}
+.box button{
+    margin-top: 16px;
+    margin-left: 67%;
+    width: 86px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cont input{
+    padding:10px;
+    width:213px;
+    border-radius:13px;
+    border:none;
+    border-bottom-left-radius: 0px;
+}
+.boxin{
+    width: fit-content;
+    overflow: hidden;
+}
+
+table, th, td{
+    border:1px solid black;
+}
